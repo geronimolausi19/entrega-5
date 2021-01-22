@@ -1,0 +1,44 @@
+#color-fondo-jumbo{
+    background-color:rgb(11, 11, 95);
+  }
+  .centrar{
+      text-align: center;
+  }
+  
+  .imagenes{
+      /* width: 296px;
+      height: 174px; */
+   
+     
+      grid: 80%;
+  }
+  
+  .imagen-3{
+      width: 310px;
+      height: 200px;
+    
+  }
+  
+  .bordes-div{
+      border: solid 10px black;
+      padding: 1px;
+      
+  }
+  
+  .color-div{
+      background-color:white;
+      
+  }
+  .color-letra{
+      color: white;
+  }
+  
+  .letra-p{
+      font-family: 'Coda Caption', sans-serif;  
+      text-align: center;
+  
+  }
+  
+  #zapatilla1{
+      text-transform: capitalize;
+  }

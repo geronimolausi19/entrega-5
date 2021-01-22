@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body background="https://i.pinimg.com/736x/db/5f/34/db5f34bd0f99fd004844a082597192ef.jpg">
+<!-- navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark ">
+  <a class="navbar-brand" href="#">New Walk</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Estilos</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Prendas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Shoes</a>
+          <a class="dropdown-item" href="#">Socks</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Jeans</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Busca" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busca</button>
+    </form>
+  </div>
+</nav>
+
+<!-- jumbotron -->
+<div  id="color-fondo-jumbo" class="jumbotron  ">
+    <h1 class="display-4 centrar color-letra">New Walk</h1>
+    <p class="lead centrar color-letra">Encontra las mejores zapatillas en New Walk. Nos centramos en zapatillas importadas, lo que aca no se encuentra nosotros te lo traemos. Desde las nike Jordan del primer modelo, hasta las converse mas clasicas del mercado. </p>
+    <hr class="my-4">
+    <p></p>
+  
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="zapatilla1" class="col-sm bordes-div color-div">
+        <img class="imagenes ounded-0 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRluF7BB6HWn-O3Bb-82J9YfbDwOtO5dXFD4A&usqp=CAU" alt="">
+        <p class="letra-p">Zapatillas Jordan 1992, $6000.</p> 
+        <button onclick="mostrarProductos()">Cargar producto</button>
+
+      </div>
+      
+      <div class="col-sm  bordes-div color-div">
+        <img class="imagenes rounded-0  " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv9f76KyRyC-YhF01BMM60THWcvHON_3QUVw&usqp=CAU" alt="">
+        <p class="letra-p">Botines New Fusion,$9000.</p>
+      </div>
+      <div class="col-sm  bordes-div  color-div">
+        <img class="imagenes imagen-3 rounded-0 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4SJkicDLm1EdHOn3KMsa4DsSeH_YgU7wyMA&usqp=CAU" alt="">
+        <p class="letra-p">Zapatillas de Running, $5000</p>
+      </div>
+    
+  </div>
+</div >
+
+    <script src="js/script.js"></script>
+</body>
+</html>
